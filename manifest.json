@@ -1,0 +1,12 @@
+{
+    "name": "Wikipedia Dark Mode",
+    "description": "Provides dark mode functionality for Wikipedia.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+          "matches": ["*://*/wiki/*"],
+          "css" : ["style.css"]
+        }
+    ]
+}
