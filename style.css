@@ -1,0 +1,111 @@
+:root {
+    --dark: #292929;
+    --light: #efe0e0;
+    --blue-purple: #baaaf5;
+    --vodka-blue: #c6bcec;
+    --bright-red: #dd3333;
+}
+
+* {
+    background-color: var(--dark) !important;
+    color: var(--light) !important;
+}
+
+body {
+    background-color: var(--dark) !important;
+}
+
+.vector-menu-tabs {
+    background-color: var(--dark) !important;
+}
+
+#content, #mw-head, #mw-panel {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+a {
+    color: var(--blue-purple) !important;
+}
+
+.new {
+    color: var(--bright-red) !important;
+}
+
+#firstHeading {
+    color: var(--light) !important;
+}
+
+.mw-headline {
+    color: var(--light) !important;
+}
+
+.infobox, .sidebar {
+    background-color: var(--dark) !important;
+    color: var(--light) !important;
+}
+
+.infobox a, .sidebar a {
+    color: var(--vodka-blue) !important;
+}
+
+.infobox-above {
+    color: black;
+}
+
+.infobox-above a {
+    color: #201353 !important;
+    text-decoration: underline;
+}
+
+.infobox-header {
+    color: black;
+}
+
+.infobox-header a {
+    color: var(--vodka-blue) !important;
+    text-decoration: underline;
+}
+
+.sidebar-heading {
+    color: black !important;
+}
+
+.sidebar-heading a {
+    color: black !important;
+    text-decoration: underline;
+}
+
+.thumb, .thumbinner {
+    background-color: var(--dark) !important;
+    color: var(--vodka-blue) !important;
+}
+
+.mwe-popups-container {
+    background: none !important;
+    background-color: var(--dark) !important;
+}
+
+.mwe-popups .mwe-popups-extract[dir='ltr']:after {
+    background-image: linear-gradient(to right, rgb(34, 34, 34, 0), rgb(34, 34, 34, 1) 50% ) !important;
+}
+
+.mw-wiki-logo {
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png') !important;
+    background-size: contain;
+    width: 120px !important;
+    margin-top: 20px;
+    margin-left: 21px;
+}
+
+.honorific-prefix a {
+    color: var(--vodka-blue) !important;
+}
+
+.thumbimage {
+    background-color: white !important;
+}
+
+.client-js .sortable:not(.jquery-tablesorter) > * > tr:first-child > th:not(.unsortable), .jquery-tablesorter th.headerSort {
+    color: white !important;
+}
